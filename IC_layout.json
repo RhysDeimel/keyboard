@@ -514,8 +514,8 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "RIGHT",
-          "label": "→"
+          "key": "PAUSE",
+          "label": "PAUSE"
         }
       }
     },
@@ -528,8 +528,8 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "LEFT",
-          "label": "←"
+          "key": "PRINTSCREEN",
+          "label": "PRSC"
         }
       }
     },
@@ -1220,7 +1220,12 @@
       ]
     }
   },
-  "defines": [],
+  "defines": [
+    {
+      "name": "usbProtocol",
+      "value": "0"
+    }
+  ],
   "leds": [],
   "custom": {},
   "macros": {},
